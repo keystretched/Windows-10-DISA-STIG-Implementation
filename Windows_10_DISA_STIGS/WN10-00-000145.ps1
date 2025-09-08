@@ -23,6 +23,7 @@
     Put any usage instructions here.
     Example syntax:
     PS C:\> .\STIG-ID-WN10-00-000145.ps1 
+#>
 
 # WN10-00-000145 - Configure Data Execution Prevention (DEP) to OptOut
 
