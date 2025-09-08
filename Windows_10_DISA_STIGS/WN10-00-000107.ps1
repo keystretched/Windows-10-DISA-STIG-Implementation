@@ -22,7 +22,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\STIG-ID-WN10-AU-000500.ps1 
+    PS C:\> .\STIG-ID-WN10-AU-000107.ps1 
 
 # WN10-00-000107 - Disable Windows Copilot
 
