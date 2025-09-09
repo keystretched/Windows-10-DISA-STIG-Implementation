@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script prevents the use of basic authentication for Windows Remote Management (WinRM) to enhance security.
+    This PowerShell script enforces complexity by requiring at least a 6-digit PIN for BitLocker.
 .NOTES
     Author          : Brandon Waddell
     LinkedIn        : linkedin.com
@@ -25,7 +25,6 @@
 #>
 
 # WN10-00-000032 - Set Minimum BitLocker PIN Length to 6 Digits
-# Purpose: Enforces complexity by requiring at least a 6-digit PIN for BitLocker.
 
 # Define registry key path
 $keyPath = "HKLM:\SOFTWARE\Policies\Microsoft\FVE"
